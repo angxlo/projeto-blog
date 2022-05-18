@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+/* declaração de variáveis */
+:root {
+    --dark: #2A2730;
+    --medium: #333144;
+    --light: #827397;
+    --highlights: #D8B9C3;
+    --text: #EDDEE3;
+    --link: #cc7bc5;
+}
+ 
+/* zerando css */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background-color: var(--medium);
+}
+
+body, button, input, select, textarea {
+    font-family: 'Courier Prime', monospace;
+    color: var(--text);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 400;
+}
+
+button {
+    background-color: var(--light);
+    border-width: 0;
+    border-radius: 25px;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 24px;
+    border-width: 0 0 5px 0;
+    border-color: hsl(265, 15%, 22%);
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(4px);
+    border-color: var(--medium);
+    background-color: hsl(265, 15%, 42%);
+}
+
+header {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    width: 50%;
+    height: fit-content;
+    padding: 0 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background-color: var(--dark);
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav ul a {
+    margin-left: 55px;
+    margin-right: 55px;
+    color: var(--link);
+    font-size: 32px;
+}
