@@ -1,10 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Projeto Blog</title>
 </head>
 <body>
@@ -20,12 +21,31 @@
     <nav>
         <img src="assets/logo.png" alt="logo"></img>
         <ul>
+            <i data-feather="user"></i>
             <a href="">SOBRE</a>
+            <i data-feather="briefcase"></i>
             <a href="">SERVIÇOS</a>
+            <i data-feather="code"></i>
             <a href="">PORTFÓLIO</a>
+            <i data-feather="paperclip"></i>
             <a href="">CURRÍCULO</a>
         </ul>
     </nav>
-    <section>Salve jorge!</section>
+    <section>
+        <div class="sobre">
+            <h1>SOBRE</h1>
+            <p>Paranaense de 16 anos, atualmente
+                estudo o terceiro ano do ensino
+                médio no Instituto Federal do
+                Paraná - Campus Cascavel, com
+                curso técnico em informática
+                integrado. Experiência com Python,
+                Java, HTML, CSS e JavaScript.
+            </p>
+        </div>
+    </section>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>
