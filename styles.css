@@ -138,6 +138,83 @@ nav ul a {
     font-size: 32px;
 }
 
+nav ul a svg {
+    display: none;
+}
+
+.about-me {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+.about-me .container {
+    width: 50%;
+    height: fit-content;
+    padding: 0 150px 0 100px;
+}
+
+.about-me .frame img {
+    position: static;
+    height: 600px;
+    margin: auto;
+}
+
+.about-me .foto img {
+    position: static;
+    height: 410px;
+    margin-left: -506px;
+}
+
+.teste {
+    height: 10000px;
+}
+
+.services {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+.services .container {
+    width: 50%;
+    height: fit-content;
+    padding: 0 150px 0 100px;
+}
+
+.services .container .testando {
+    display: flex;
+}
+
+.services .container .teste1 {
+    border-radius: 25px;
+    height: 500px;
+    width: 500px;
+    font-size: 24px;
+    background-color: var(--dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:767px) {
     header .container {
         width: 100%;
@@ -176,16 +253,4 @@ nav ul a {
         width: 15px;
         top: -1px;
     }
-}
-
-section {
-    height: calc(100vh - 65px);
-    display: flex;
-    align-items: center;
-}
-
-section .sobre {
-    width: 50%;
-    height: fit-content;
-    padding: 0 100px;
 }
