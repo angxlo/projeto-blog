@@ -18,6 +18,7 @@
 html, body {
     margin: 0;
     background-color: var(--medium);
+    scroll-behavior: smooth;
 }
 
 body, button, input, select, textarea {
@@ -138,6 +139,11 @@ nav ul a {
     font-size: 32px;
 }
 
+nav ul a:hover {
+    color: var(--text);
+    transition: 0.5s;
+}
+
 nav ul a svg {
     display: none;
 }
@@ -177,28 +183,91 @@ nav ul a svg {
 }
 
 .services .container {
-    width: 50%;
+    width: 100%;
     height: fit-content;
     padding: 0 150px 0 100px;
 }
 
-.services .container .testando {
+.services .container .services_cont {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
 }
 
-.services .container .teste1 {
+.services .container .services_cont .web_dev {
     border-radius: 25px;
-    height: 500px;
-    width: 500px;
-    font-size: 24px;
+    border-style: solid;
+    border-color: var(--highlights);
+    border-width: 2px;
+    height: 324px;
+    width: 324px;
     background-color: var(--dark);
 }
 
+.services .container .services_cont .web_dev img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 30%;
+}
 
+.services .container .services_cont .web_dev p {
+    font-size: 24px;
+    margin: 24px;
+    text-align: center;
+}
 
+.services .container .services_cont .pyjv_dev {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: var(--highlights);
+    border-width: 2px;
+    height: 324px;
+    width: 324px;
+    background-color: var(--dark);
+    margin-left: 10%;
+}
 
+.services .container .services_cont .pyjv_dev img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 30%;
+}
 
+.services .container .services_cont .pyjv_dev p {
+    font-size: 24px;
+    margin: 24px;
+    text-align: center;
+}
 
+.services .container .services_cont .graphic_design {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: var(--highlights);
+    border-width: 2px;
+    height: 324px;
+    width: 324px;
+    background-color: var(--dark);
+    margin-left: 10%;
+}
+
+.services .container .services_cont .graphic_design img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 30%;
+}
+
+.services .container .services_cont .graphic_design p {
+    font-size: 24px;
+    margin: 24px;
+    text-align: center;
+}
 
 
 
